@@ -1,0 +1,83 @@
+@font-face {
+    font-family: myDoctorFont;
+    src: url(/ProjectPRJ321/font/DoctorJekyllNF.ttf);
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+    border: none;
+    margin-bottom: 300px;
+    font-family: Arial;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: none;
+    height: 50px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: mediumseagreen;
+    color: white;
+}
+.DeleteBtn{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff3300;
+    color: white;
+    cursor: pointer;
+    height: 30px;  
+}
+
+.DeleteBtn:hover{
+    opacity: 0.5;
+}
+
+.EditBtn{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #e6b800;
+    color: white;
+    cursor: pointer;
+    height: 30px; 
+}
+.EditBtn:hover{
+    opacity: 0.5;
+}
+
+.homeLink{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+
+.homeLink{
+    display: block;
+    margin-bottom: 250px;
+}
+
+#checkoutBtn{
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffcc00;
+    color: black;
+    cursor: pointer;
+    height: 30px;  
+    font-weight: bold;
+}
+
+#title{
+    margin-top: 50px;
+    font-family: myDoctorFont;
+}
+
+#codeInput{
+    border-radius: 0.1px;
+    border-color:  gainsboro;
+}

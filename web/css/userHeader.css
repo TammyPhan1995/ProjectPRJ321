@@ -1,0 +1,119 @@
+@font-face {
+    font-family: myMagicFont;
+    src: url(/ProjectPRJ321/font/Quite_Magical.ttf);
+}
+@font-face {
+    font-family: myDoctorFont;
+    src: url(/ProjectPRJ321/font/DoctorJekyllNF.ttf);
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    background-color:#404040;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 30px;
+    color: white;
+}
+
+#header h1{
+    font-size: 4em;
+    font-family: myMagicFont;
+    margin: 0px;
+    position: absolute;
+    left: 150px;
+}
+
+#headerImage{
+    width: 100px;
+    height:100px;
+    position: absolute;
+    left: 20px;
+    top: 0px;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #7a0099;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.inNavLink:hover, .dropdown:hover .dropbtn {
+    background-color: mediumseagreen;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+#aa{
+    position: absolute;
+    top: 110px;
+    right: 50px;
+    color: mediumseagreen;
+    cursor:  pointer;
+    font-size: 1.3em;
+}
+#welcomeStatus{
+    position: absolute;
+    top: -10px;
+    right: 50px;
+    font-size: 2em;
+    font-family: myDoctorFont;
+}

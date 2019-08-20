@@ -1,0 +1,51 @@
+@font-face {
+  font-family: myMagicFont;
+  src: url(/ProjectPRJ321/font/Quite_Magical.ttf);
+}
+
+body{
+    background-image: url("/ProjectPRJ321/img/amazing-vietnam.jpg");
+    background-repeat: no-repeat;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 4em;
+    font-family: myMagicFont;
+    color:  #7a0099;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#mainContainer{
+    width: 80%;
+    height: 550px;
+    margin: auto;
+    margin-top: 120px;
+    background-color: rgba(255,255,255,0.5);
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+td{
+    padding: 8px;
+}
+table{
+    width: 40%;
+
+}
+
+a{
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+a:hover{
+    color: #7a0099;
+}
+
+
+

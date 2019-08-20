@@ -1,0 +1,42 @@
+@font-face {
+    font-family: myDoctorFont;
+    src: url(/ProjectPRJ321/font/DoctorJekyllNF.ttf);
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit]{
+  background-color: #7a0099;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+}
+
+input[type=submit]:hover{
+    opacity: 0.8;
+}
+
+
+textarea{
+    border: 1px solid #ccc;
+}
+.label{
+    font-weight: bold;
+    color:  #333333;
+    font-family: Arial;
+}
+
+#title{
+    margin-top: 50px;
+    font-family: myDoctorFont;
+}

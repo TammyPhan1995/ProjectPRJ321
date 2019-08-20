@@ -1,0 +1,37 @@
+#searchDiv{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+
+input[type=text]{
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 30px;
+}
+
+#searchBtn{
+  background-color: #7a0099;
+  color: white;
+  padding: 8px 12px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  display: inline-block;
+  height: 30px;
+}
+
+#searchBtn:hover{
+    opacity: 0.8;
+}
+
+.label{
+    font-weight: bold;
+    color:  #333333;
+}

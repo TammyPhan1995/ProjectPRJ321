@@ -1,0 +1,24 @@
+@font-face {
+    font-family: myDoctorFont;
+    src: url(/ProjectPRJ321/font/DoctorJekyllNF.ttf);
+}
+
+.proContainer{
+    width: 50%;
+    height: auto;
+    margin: 50px;
+    box-shadow:  5px 5px #888888;
+    background-color: #4d4d4d;
+    color: #e6b800;
+    padding: 10px;
+}
+
+.percentage{
+    font-size: 4em;
+}
+
+#title{
+    margin-top: 100px;
+    font-family: myDoctorFont;
+    color: #999999;
+}
